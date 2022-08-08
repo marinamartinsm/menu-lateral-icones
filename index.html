@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <title>Menu Lateral Responsivo | HTML & CSS</title>
+</head>
+<body>
+  
+  <input type="checkbox" id="check">
+<header>
+  <label for="check">
+    <ion-icon name="menu-outline" id="sidebar-btn"></ion-icon>
+  </label>
+  <div class="left">
+    <h3>Menu <span>Lateral</span></h3>
+  </div>
+  <div class="right">
+    <a href="#" class="sair-btn">Sair</a>
+  </div>
+</header>
+
+<div class="sidebar">
+  <div class="center">
+    <img src="./logo.jpg" class="image" alt="foto-imagem">
+    <h2>Projeto</h2>
+  </div>
+  <hr><br>
+    <a href="#"><ion-icon name="desktop-outline"></ion-icon><span>Painel</span></a>
+    <a href="#"><ion-icon name="document-text-outline"></ion-icon><span>Formulário</span></a>
+    <a href="#"><ion-icon name="camera-outline"></ion-icon></ion-icon><span>Galeria</span></a>
+    <a href="#"><ion-icon name="information-circle-outline"></ion-icon><span>Sobre</span></a>
+    <a href="#"><ion-icon name="chatbubble-outline"></ion-icon><span>Chat</span></a>
+    <a href="#"><ion-icon name="settings-outline"></ion-icon><span>Configurações</span></a>
+</div>
+
+<div class="content"></div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+</script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
